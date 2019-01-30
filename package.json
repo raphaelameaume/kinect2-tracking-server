@@ -1,0 +1,17 @@
+{
+  "name": "kinect2-tracking-server",
+  "version": "0.0.1",
+  "description": "Tiny server to emit Kinect data with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphaël Améaume <raphael.ameaume@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ip": "^1.1.5",
+    "kinect2": "^0.1.6",
+    "socket.io": "^2.2.0"
+  }
+}
